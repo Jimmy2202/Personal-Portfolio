@@ -81,6 +81,16 @@ function Main() {
       icon: "down",
       github: "https://github.com/Jimmy2202/Projeto2-Avanti-Github",
     },
+    {
+      id: 7,
+      title: "Folder",
+      description:
+        "Aplicação com uma temática de horror que visa oferecer algumas ferramentas aos fãs do tema como recomendação de filmes, teste de personagem e de filme que mais se encaixa com o usuário.",
+      link: "https://jimmy2202.github.io/HorrorSiteFront/",
+      icon: "down",
+      github: "https://github.com/Jimmy2202/HorrorSiteFront",
+      github2: "https://github.com/Jimmy2202/HorrorSiteBackEnd",
+    },
   ]);
 
   const showDetailsProjectAndIcon = (id) => {
@@ -219,7 +229,7 @@ function Main() {
         </div>
       </Element>
 
-      <Element name="section2" className="flex flex-col gap-14 p-5">
+      <Element name="section2" className="flex relative flex-col gap-14 p-5">
         <p className="p-5 font-orbitron shadow-blue-800 shadow-sm w-screen text-center bg-black/[0.5] text-cyan-300 text-[20px] relative">
           {" "}
           Projetos{" "}
@@ -235,7 +245,12 @@ function Main() {
           />
         </p>
 
-        <div className="flex flex-row flex-wrap gap-7 p-5 justify-center items-center sm-custom:flex-col">
+        <div className="absolute w-[20vw] sm-custom:left-7 sm-custom:top-24 sm-custom:w-[95vw] text-[6px] font-press_start_2p text-center shadow-sm shadow-purple-600 top-20 left-20 animate-float2 p-3 bg-white border-red-500 rounded-xl">
+          Clique no ícone da pasta ou na descrição do projeto para ir para o
+          site do projeto! Para acessar a descrição, clique nas setas!
+        </div>
+
+        <div className="flex relative flex-row flex-wrap gap-7 p-5 justify-center items-center sm-custom:flex-col">
           {projects.map((project) => (
             <div
               key={project.id}
@@ -261,6 +276,17 @@ function Main() {
                   Código Fonte
                   <FaGithub className="scale-[1.8]" />
                 </a>
+                {project.github2 ? (
+                  <a
+                    href={project.github2}
+                    className="hover:text-black text-[12px] font-orbitron flex flex-row gap-3"
+                  >
+                    Segundo Código Fonte
+                    <FaGithub className="scale-[2.5]" />
+                  </a>
+                ) : (
+                  ""
+                )}
               </Project>
             </div>
           ))}
