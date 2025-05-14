@@ -15,7 +15,7 @@ function Contacts(props) {
           Email: artrkmj214@gmail.com <MdEmail className="scale-[1.2]" />{" "}
         </h2>
         <a
-          href="https://github.com/Jimmy2202/Codes.git"
+          href="https://github.com/Jimmy2202"
           className="flex flex-row gap-2 items-center hover:text-black transition duration-500"
         >
           Repositório Principal Github <FaGithub className="scale-[1.2]" />
