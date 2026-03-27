@@ -193,7 +193,7 @@ function Main() {
             Sobre Mim
           </span>
           <div className="p-10 text-center">
-            Meu nome é Arthur de Oliveira Pinto, tenho 25 anos, sou estudante de
+            Meu nome é Arthur de Oliveira Pinto, tenho 26 anos, sou estudante de
             Ciência da Computação. Atualmente estou no 7º período e em busca da
             minha primeira vaga de estágio dentro do ramo do desenvolvimento de
             software.
