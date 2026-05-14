@@ -20,14 +20,6 @@ import Contacts from "./Contact";
 function Main() {
   const [projects, setProjects] = useState([
     {
-      id: 0,
-      title: "Folder",
-      description: "Projeto de um jogo da velha feito em JavaScript,CSS e HTML",
-      link: "https://jimmy2202.github.io/Jogo-da-Velha/",
-      icon: "down",
-      github: "https://github.com/Jimmy2202/Jogo-da-Velha",
-    },
-    {
       id: 1,
       title: "Folder",
       description:
@@ -35,24 +27,6 @@ function Main() {
       link: "https://jimmy2202.github.io/hangman/",
       icon: "down",
       github: "https://github.com/Jimmy2202/hangman",
-    },
-    {
-      id: 2,
-      title: "Folder",
-      description:
-        "Projeto feito com CSS, HTML e JavaScript, que simula um site informativo sobre um plano de saúde",
-      link: "https://jimmy2202.github.io/Plano-False-Health/",
-      icon: "down",
-      github: "https://github.com/Jimmy2202/Plano-False-Health",
-    },
-    {
-      id: 3,
-      title: "Folder",
-      description:
-        "Site feito em JS, CSS e HTML que simula um e-commerce esportivo",
-      link: "https://jimmy2202.github.io/Site-Esportivo/",
-      icon: "down",
-      github: "https://github.com/Jimmy2202/Site-Esportivo",
     },
     {
       id: 4,
@@ -85,11 +59,21 @@ function Main() {
       id: 7,
       title: "Folder",
       description:
-        "Aplicação com uma temática de horror que visa oferecer algumas ferramentas aos fãs do tema como recomendação de filmes, teste de personagem e de filme que mais se encaixa com o usuário.",
+        "HORRORZONE - Aplicação com uma temática de horror que visa oferecer algumas ferramentas aos fãs do tema como recomendação de filmes, teste de personagem e de filme que mais se encaixa com o usuário.",
       link: "https://jimmy2202.github.io/HorrorSiteFront/",
       icon: "down",
       github: "https://github.com/Jimmy2202/HorrorSiteFront",
       github2: "https://github.com/Jimmy2202/HorrorSiteBackEnd",
+    },
+    {
+      id: 8,
+      title: "Folder",
+      description:
+        "FLOATZEN - Aplicação feita para meu TCC com intuito de recomendar música com base no estado emocional do usuário.",
+      link: "https://jimmy2202.github.io/FloatZenFront/",
+      icon: "down",
+      github: "https://github.com/Jimmy2202/FloatZenFront",
+      github2: "https://github.com/Jimmy2202/FloatZenBack",
     },
   ]);
 
